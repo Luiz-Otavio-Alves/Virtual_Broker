@@ -1,0 +1,41 @@
+.header-right .hr-btn.hr-btn-2 {
+	background: #242424;
+	padding: 20px 20px;
+	min-width: 236px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.section-anti-header {
+	position: absolute;
+	color: white;
+	width: 100%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6%;
+	background: #f43f00;
+	z-index: 999;
+	font-size: 13px;
+}
+.parag{
+	position: absolute;
+	right: 12%;
+}
+.parag1{
+	position: absolute;
+	right: 8%;
+}
+.parag2{
+	position: absolute;
+	right: 10%;
+}
+
+.header-section {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top:5%;
+	padding-left: 53px;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+}
