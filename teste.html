@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 	<body>
@@ -33,3 +34,40 @@
 		</script>
 	</body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+	<body>
+	<!--
+		<select id="language" onChange="update()">
+			<option value="pt">Português</option>
+			<option value="en">English</option>
+			<option value="es">Español</option>
+		</select>
+		<input type="text" id="value">
+		<input type="text" id="text">
+	!-->
+
+						<div class="form-group col-md-2">
+						  <label for="campo3">Operação do Imóvel</label>
+						  <select id="op" onChange="update()"	>
+							  <option value="venda">Venda</option>
+							  <option value="locacao">Locação</option>
+							</select>
+							 <input type="text" id="value" >
+							 <input type="text" id="text" name="tipo_operacao">
+						</div>
+		<script type="text/javascript">
+			function update() {
+				var select = document.getElementById('op');
+				var option = select.options[select.selectedIndex];
+
+				document.getElementById('value').value = option.value;
+				document.getElementById('text').value = option.text;
+			}
+
+			update();
+		</script>
+	</body>
+</html>
+>>>>>>> 55d465aec2759ee4abfb8c5ef3ce68e700e1a43f
